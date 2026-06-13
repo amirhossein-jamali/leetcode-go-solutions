@@ -1,3 +1,34 @@
+---
+id: 3838
+title: "Weighted Word Mapping"
+difficulty: "Easy"
+level: "Mid Level"
+platform: "LeetCode"
+link: "https://leetcode.com/problems/weighted-word-mapping/"
+contest: "Biweekly Contest 176"
+status: "Solved"
+language: "Go"
+topics:
+  - "Array"
+  - "String"
+  - "Simulation"
+go_concepts:
+  - "Slices"
+  - "Strings as byte sequences"
+  - "For loops"
+  - "ASCII arithmetic"
+  - "Modulo operator"
+  - "Preallocated byte slices"
+  - "Table-driven tests"
+tags:
+  - leetcode
+  - go
+  - array
+  - string
+  - simulation
+  - biweekly-contest-176
+---
+
 # 3838. Weighted Word Mapping
 
 ## Problem Link
@@ -7,6 +38,34 @@ LeetCode: `https://leetcode.com/problems/weighted-word-mapping/`
 ## Difficulty
 
 Easy
+
+## Problem Topics
+
+* Array
+* String
+* Simulation
+* Biweekly Contest 176
+
+## What to Know Before Solving
+
+General concepts:
+
+* How arrays/slices store ordered values
+* How strings are processed character by character
+* How to simulate a rule exactly as described
+* How modulo arithmetic works
+* How to map numbers from `0` to `25` to letters
+
+Go concepts:
+
+* Function parameters with `[]string` and `[]int`
+* Iterating over slices with indexes
+* Iterating over strings by byte index when the input is lowercase English letters
+* Converting a character to an alphabet index with `word[j] - 'a'`
+* Using `byte` values for ASCII character math
+* Preallocating a result with `make([]byte, len(words))`
+* Converting a `[]byte` result back to `string`
+* Writing table-driven tests with the `testing` package
 
 ## Problem Description
 
@@ -30,6 +89,16 @@ For each word:
 ```
 
 Return a string formed by concatenating the mapped characters for all words in order.
+
+## Function Signature
+
+Expected LeetCode function signature:
+
+```go
+func mapWordWeights(words []string, weights []int) string {
+
+}
+```
 
 ## Examples
 
@@ -237,19 +306,21 @@ A memory-efficient implementation uses a preallocated byte slice:
 package weightedwordmapping
 
 func mapWordWeights(words []string, weights []int) string {
-	result := make([]byte, len(words))
+	res := make([]byte, len(words))
 
-	for i, word := range words {
+	for i := 0; i < len(words); i++ {
+		word := words[i]
 		sum := 0
 
 		for j := 0; j < len(word); j++ {
-			sum += weights[int(word[j]-'a')]
+			idx := int(word[j] - 'a')
+			sum += weights[idx]
 		}
 
-		result[i] = byte('z' - (sum % 26))
+		res[i] = byte(int('z') - (sum % 26))
 	}
 
-	return string(result)
+	return string(res)
 }
 ```
 
