@@ -18,7 +18,7 @@ leetcode-go-solutions/
 ├── docs/
 │   └── problem-template.md
 └── problems/
-    └── 0001-two-sum/
+    └── 3838-weighted-word-mapping/
         ├── README.md
         ├── solution.go
         └── solution_test.go
@@ -64,9 +64,9 @@ Contains local test cases for the solution.
 
 ## Solved Problems
 
-| # | Problem | Difficulty | Solution                       |
-| - | ------- | ---------- | ------------------------------ |
-| 1 | Two Sum | Easy       | [Go](./problems/0001-two-sum/) |
+| #    | Problem               | Difficulty | Solution                                      |
+| ---- | --------------------- | ---------- | --------------------------------------------- |
+| 3838 | Weighted Word Mapping | Easy       | [Go](./problems/3838-weighted-word-mapping/) |
 
 ## How to Run Tests
 
@@ -79,7 +79,7 @@ go test ./...
 Run tests for a specific problem:
 
 ```bash
-go test ./problems/0001-two-sum
+go test ./problems/3838-weighted-word-mapping
 ```
 
 ## Goals
