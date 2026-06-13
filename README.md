@@ -54,6 +54,8 @@ solution_test.go
 
 Contains the problem explanation, approach, algorithm idea, and complexity analysis.
 
+Problem README files can also include Obsidian-friendly YAML frontmatter for metadata such as difficulty, topics, contest, and Go concepts.
+
 ### `solution.go`
 
 Contains the Go implementation of the solution.
