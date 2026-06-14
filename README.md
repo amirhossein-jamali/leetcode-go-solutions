@@ -18,6 +18,10 @@ leetcode-go-solutions/
 ├── docs/
 │   └── problem-template.md
 └── problems/
+    ├── 2130-maximum-twin-sum-of-a-linked-list/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     └── 3838-weighted-word-mapping/
         ├── README.md
         ├── solution.go
@@ -66,9 +70,10 @@ Contains local test cases for the solution.
 
 ## Solved Problems
 
-| #    | Problem               | Difficulty | Solution                                      |
-| ---- | --------------------- | ---------- | --------------------------------------------- |
-| 3838 | Weighted Word Mapping | Easy       | [Go](./problems/3838-weighted-word-mapping/) |
+| #    | Problem                           | Difficulty | Solution                                                  |
+| ---- | --------------------------------- | ---------- | --------------------------------------------------------- |
+| 2130 | Maximum Twin Sum of a Linked List | Medium     | [Go](./problems/2130-maximum-twin-sum-of-a-linked-list/) |
+| 3838 | Weighted Word Mapping             | Easy       | [Go](./problems/3838-weighted-word-mapping/)             |
 
 ## How to Run Tests
 
@@ -78,9 +83,10 @@ Run all tests:
 go test ./...
 ```
 
-Run tests for a specific problem:
+Run tests for one problem:
 
 ```bash
+go test ./problems/2130-maximum-twin-sum-of-a-linked-list
 go test ./problems/3838-weighted-word-mapping
 ```
 
