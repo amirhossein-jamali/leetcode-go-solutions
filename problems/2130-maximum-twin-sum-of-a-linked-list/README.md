@@ -12,7 +12,6 @@ topics:
   - "Senior"
   - "Linked List"
   - "Two Pointers"
-  - "Stack"
 go_concepts:
   - "Pointers and struct types"
   - "Singly linked lists"
@@ -25,7 +24,6 @@ tags:
   - senior
   - linked-list
   - two-pointers
-  - stack
   - biweekly-contest-69
 ---
 
@@ -44,8 +42,6 @@ Medium
 * Senior
 * Linked List
 * Two Pointers
-* Stack
-* Biweekly Contest 69
 
 ## What to Know Before Solving
 

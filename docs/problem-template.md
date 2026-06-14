@@ -41,7 +41,6 @@ Easy / Medium / Hard
 ## Problem Topics
 
 * PASTE_LEETCODE_TOPIC_HERE
-* PASTE_CONTEST_OR_SOURCE_HERE
 
 ## What to Know Before Solving
 
@@ -293,7 +292,6 @@ tags:
 * Array
 * String
 * Simulation
-* Biweekly Contest 176
 
 ## What to Know Before Solving
 
