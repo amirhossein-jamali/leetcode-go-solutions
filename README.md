@@ -18,6 +18,10 @@ leetcode-go-solutions/
 ├── docs/
 │   └── problem-template.md
 └── problems/
+    ├── 125-valid-palindrome/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     ├── 2130-maximum-twin-sum-of-a-linked-list/
     │   ├── README.md
     │   ├── solution.go
@@ -72,6 +76,7 @@ Contains local test cases for the solution.
 
 | #    | Problem                           | Difficulty | Solution                                                  |
 | ---- | --------------------------------- | ---------- | --------------------------------------------------------- |
+| 125  | Valid Palindrome                  | Easy       | [Go](./problems/125-valid-palindrome/)                    |
 | 2130 | Maximum Twin Sum of a Linked List | Medium     | [Go](./problems/2130-maximum-twin-sum-of-a-linked-list/) |
 | 3838 | Weighted Word Mapping             | Easy       | [Go](./problems/3838-weighted-word-mapping/)             |
 
@@ -86,6 +91,7 @@ go test ./...
 Run tests for one problem:
 
 ```bash
+go test ./problems/125-valid-palindrome
 go test ./problems/2130-maximum-twin-sum-of-a-linked-list
 go test ./problems/3838-weighted-word-mapping
 ```
