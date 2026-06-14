@@ -44,7 +44,6 @@ Easy
 * Array
 * String
 * Simulation
-* Biweekly Contest 176
 
 ## What to Know Before Solving
 
