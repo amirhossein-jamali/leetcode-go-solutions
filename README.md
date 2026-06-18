@@ -22,6 +22,10 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 1344-angle-between-hands-of-a-clock/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     ├── 2095-delete-the-middle-node-of-a-linked-list/
     │   ├── README.md
     │   ├── solution.go
@@ -89,6 +93,7 @@ Contains local test cases for the solution.
 | #    | Problem                                   | Difficulty | Solution                                                      |
 | ---- | ----------------------------------------- | ---------- | ------------------------------------------------------------- |
 | 125  | Valid Palindrome                          | Easy       | [Go](./problems/125-valid-palindrome/)                        |
+| 1344 | Angle Between Hands of a Clock            | Medium     | [Go](./problems/1344-angle-between-hands-of-a-clock/)         |
 | 2095 | Delete the Middle Node of a Linked List   | Medium     | [Go](./problems/2095-delete-the-middle-node-of-a-linked-list/) |
 | 2130 | Maximum Twin Sum of a Linked List         | Medium     | [Go](./problems/2130-maximum-twin-sum-of-a-linked-list/)      |
 | 3612 | Process String with Special Operations I  | Medium     | [Go](./problems/3612-process-string-with-special-operations-i/) |
@@ -107,6 +112,7 @@ Run tests for one problem:
 
 ```bash
 go test ./problems/125-valid-palindrome
+go test ./problems/1344-angle-between-hands-of-a-clock
 go test ./problems/2095-delete-the-middle-node-of-a-linked-list
 go test ./problems/2130-maximum-twin-sum-of-a-linked-list
 go test ./problems/3612-process-string-with-special-operations-i
