@@ -30,6 +30,10 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 1833-maximum-ice-cream-bars/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     ├── 1840-maximum-building-height/
     │   ├── README.md
     │   ├── solution.go
@@ -103,6 +107,7 @@ Contains local test cases for the solution.
 | 125  | Valid Palindrome                          | Easy       | [Go](./problems/125-valid-palindrome/)                        |
 | 1344 | Angle Between Hands of a Clock            | Medium     | [Go](./problems/1344-angle-between-hands-of-a-clock/)         |
 | 1732 | Find the Highest Altitude                 | Easy       | [Go](./problems/1732-find-the-highest-altitude/)              |
+| 1833 | Maximum Ice Cream Bars                    | Medium     | [Go](./problems/1833-maximum-ice-cream-bars/)                 |
 | 1840 | Maximum Building Height                   | Hard       | [Go](./problems/1840-maximum-building-height/)                |
 | 2095 | Delete the Middle Node of a Linked List   | Medium     | [Go](./problems/2095-delete-the-middle-node-of-a-linked-list/) |
 | 2130 | Maximum Twin Sum of a Linked List         | Medium     | [Go](./problems/2130-maximum-twin-sum-of-a-linked-list/)      |
@@ -124,6 +129,7 @@ Run tests for one problem:
 go test ./problems/125-valid-palindrome
 go test ./problems/1344-angle-between-hands-of-a-clock
 go test ./problems/1732-find-the-highest-altitude
+go test ./problems/1833-maximum-ice-cream-bars
 go test ./problems/1840-maximum-building-height
 go test ./problems/2095-delete-the-middle-node-of-a-linked-list
 go test ./problems/2130-maximum-twin-sum-of-a-linked-list
