@@ -50,6 +50,10 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 2287-rearrange-characters-to-make-target-string/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     ├── 3612-process-string-with-special-operations-i/
     │   ├── README.md
     │   ├── solution.go
@@ -116,6 +120,7 @@ Contains local test cases for the solution.
 | 1840 | Maximum Building Height                   | Hard       | [Go](./problems/1840-maximum-building-height/)                |
 | 2095 | Delete the Middle Node of a Linked List   | Medium     | [Go](./problems/2095-delete-the-middle-node-of-a-linked-list/) |
 | 2130 | Maximum Twin Sum of a Linked List         | Medium     | [Go](./problems/2130-maximum-twin-sum-of-a-linked-list/)      |
+| 2287 | Rearrange Characters to Make Target String | Easy       | [Go](./problems/2287-rearrange-characters-to-make-target-string/) |
 | 3612 | Process String with Special Operations I  | Medium     | [Go](./problems/3612-process-string-with-special-operations-i/) |
 | 3614 | Process String with Special Operations II | Hard       | [Go](./problems/3614-process-string-with-special-operations-ii/) |
 | 3838 | Weighted Word Mapping                     | Easy       | [Go](./problems/3838-weighted-word-mapping/)                  |
@@ -139,6 +144,7 @@ go test ./problems/1833-maximum-ice-cream-bars
 go test ./problems/1840-maximum-building-height
 go test ./problems/2095-delete-the-middle-node-of-a-linked-list
 go test ./problems/2130-maximum-twin-sum-of-a-linked-list
+go test ./problems/2287-rearrange-characters-to-make-target-string
 go test ./problems/3612-process-string-with-special-operations-i
 go test ./problems/3614-process-string-with-special-operations-ii
 go test ./problems/3838-weighted-word-mapping
