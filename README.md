@@ -22,6 +22,10 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 1189-maximum-number-of-balloons/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     ├── 1344-angle-between-hands-of-a-clock/
     │   ├── README.md
     │   ├── solution.go
@@ -105,6 +109,7 @@ Contains local test cases for the solution.
 | #    | Problem                                   | Difficulty | Solution                                                      |
 | ---- | ----------------------------------------- | ---------- | ------------------------------------------------------------- |
 | 125  | Valid Palindrome                          | Easy       | [Go](./problems/125-valid-palindrome/)                        |
+| 1189 | Maximum Number of Balloons                | Easy       | [Go](./problems/1189-maximum-number-of-balloons/)             |
 | 1344 | Angle Between Hands of a Clock            | Medium     | [Go](./problems/1344-angle-between-hands-of-a-clock/)         |
 | 1732 | Find the Highest Altitude                 | Easy       | [Go](./problems/1732-find-the-highest-altitude/)              |
 | 1833 | Maximum Ice Cream Bars                    | Medium     | [Go](./problems/1833-maximum-ice-cream-bars/)                 |
@@ -127,6 +132,7 @@ Run tests for one problem:
 
 ```bash
 go test ./problems/125-valid-palindrome
+go test ./problems/1189-maximum-number-of-balloons
 go test ./problems/1344-angle-between-hands-of-a-clock
 go test ./problems/1732-find-the-highest-altitude
 go test ./problems/1833-maximum-ice-cream-bars
