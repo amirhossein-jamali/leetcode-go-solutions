@@ -70,6 +70,10 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 3737-count-subarrays-with-majority-element-i/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     └── 3838-weighted-word-mapping/
         ├── README.md
         ├── solution.go
@@ -133,6 +137,7 @@ Contains local test cases for the solution.
 | 3614 | Process String with Special Operations II | Hard       | [Go](./problems/3614-process-string-with-special-operations-ii/) |
 | 3699 | Number of ZigZag Arrays I                 | Hard       | [Go](./problems/3699-number-of-zigzag-arrays-i/)              |
 | 3700 | Number of ZigZag Arrays II                | Hard       | [Go](./problems/3700-number-of-zigzag-arrays-ii/)             |
+| 3737 | Count Subarrays With Majority Element I   | Medium     | [Go](./problems/3737-count-subarrays-with-majority-element-i/) |
 | 3838 | Weighted Word Mapping                     | Easy       | [Go](./problems/3838-weighted-word-mapping/)                  |
 
 ## How to Run Tests
@@ -159,6 +164,7 @@ go test ./problems/3612-process-string-with-special-operations-i
 go test ./problems/3614-process-string-with-special-operations-ii
 go test ./problems/3699-number-of-zigzag-arrays-i
 go test ./problems/3700-number-of-zigzag-arrays-ii
+go test ./problems/3737-count-subarrays-with-majority-element-i
 go test ./problems/3838-weighted-word-mapping
 ```
 
