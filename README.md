@@ -42,6 +42,10 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 1846-maximum-element-after-decreasing-and-rearranging/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     ├── 2095-delete-the-middle-node-of-a-linked-list/
     │   ├── README.md
     │   ├── solution.go
@@ -138,6 +142,7 @@ Contains local test cases for the solution.
 | 1732 | Find the Highest Altitude                 | Easy       | [Go](./problems/1732-find-the-highest-altitude/)              |
 | 1833 | Maximum Ice Cream Bars                    | Medium     | [Go](./problems/1833-maximum-ice-cream-bars/)                 |
 | 1840 | Maximum Building Height                   | Hard       | [Go](./problems/1840-maximum-building-height/)                |
+| 1846 | Maximum Element After Decreasing and Rearranging | Medium | [Go](./problems/1846-maximum-element-after-decreasing-and-rearranging/) |
 | 2095 | Delete the Middle Node of a Linked List   | Medium     | [Go](./problems/2095-delete-the-middle-node-of-a-linked-list/) |
 | 2130 | Maximum Twin Sum of a Linked List         | Medium     | [Go](./problems/2130-maximum-twin-sum-of-a-linked-list/)      |
 | 2287 | Rearrange Characters to Make Target String | Easy       | [Go](./problems/2287-rearrange-characters-to-make-target-string/) |
@@ -167,6 +172,7 @@ go test ./problems/1344-angle-between-hands-of-a-clock
 go test ./problems/1732-find-the-highest-altitude
 go test ./problems/1833-maximum-ice-cream-bars
 go test ./problems/1840-maximum-building-height
+go test ./problems/1846-maximum-element-after-decreasing-and-rearranging
 go test ./problems/2095-delete-the-middle-node-of-a-linked-list
 go test ./problems/2130-maximum-twin-sum-of-a-linked-list
 go test ./problems/2287-rearrange-characters-to-make-target-string
