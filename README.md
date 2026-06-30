@@ -30,6 +30,10 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 1358-number-of-substrings-containing-all-three-characters/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     ├── 1732-find-the-highest-altitude/
     │   ├── README.md
     │   ├── solution.go
@@ -139,6 +143,7 @@ Contains local test cases for the solution.
 | 125  | Valid Palindrome                          | Easy       | [Go](./problems/125-valid-palindrome/)                        |
 | 1189 | Maximum Number of Balloons                | Easy       | [Go](./problems/1189-maximum-number-of-balloons/)             |
 | 1344 | Angle Between Hands of a Clock            | Medium     | [Go](./problems/1344-angle-between-hands-of-a-clock/)         |
+| 1358 | Number of Substrings Containing All Three Characters | Medium | [Go](./problems/1358-number-of-substrings-containing-all-three-characters/) |
 | 1732 | Find the Highest Altitude                 | Easy       | [Go](./problems/1732-find-the-highest-altitude/)              |
 | 1833 | Maximum Ice Cream Bars                    | Medium     | [Go](./problems/1833-maximum-ice-cream-bars/)                 |
 | 1840 | Maximum Building Height                   | Hard       | [Go](./problems/1840-maximum-building-height/)                |
@@ -169,6 +174,7 @@ Run tests for one problem:
 go test ./problems/125-valid-palindrome
 go test ./problems/1189-maximum-number-of-balloons
 go test ./problems/1344-angle-between-hands-of-a-clock
+go test ./problems/1358-number-of-substrings-containing-all-three-characters
 go test ./problems/1732-find-the-highest-altitude
 go test ./problems/1833-maximum-ice-cream-bars
 go test ./problems/1840-maximum-building-height
