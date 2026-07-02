@@ -70,6 +70,10 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 3286-find-a-safe-walk-through-a-grid/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     ├── 3612-process-string-with-special-operations-i/
     │   ├── README.md
     │   ├── solution.go
@@ -157,6 +161,7 @@ Contains local test cases for the solution.
 | 2130 | Maximum Twin Sum of a Linked List         | Medium     | [Go](./problems/2130-maximum-twin-sum-of-a-linked-list/)      |
 | 2287 | Rearrange Characters to Make Target String | Easy       | [Go](./problems/2287-rearrange-characters-to-make-target-string/) |
 | 3020 | Find the Maximum Number of Elements in Subset | Medium | [Go](./problems/3020-find-the-maximum-number-of-elements-in-subset/) |
+| 3286 | Find a Safe Walk Through a Grid           | Medium     | [Go](./problems/3286-find-a-safe-walk-through-a-grid/)        |
 | 3612 | Process String with Special Operations I  | Medium     | [Go](./problems/3612-process-string-with-special-operations-i/) |
 | 3614 | Process String with Special Operations II | Hard       | [Go](./problems/3614-process-string-with-special-operations-ii/) |
 | 3699 | Number of ZigZag Arrays I                 | Hard       | [Go](./problems/3699-number-of-zigzag-arrays-i/)              |
@@ -189,6 +194,7 @@ go test ./problems/2095-delete-the-middle-node-of-a-linked-list
 go test ./problems/2130-maximum-twin-sum-of-a-linked-list
 go test ./problems/2287-rearrange-characters-to-make-target-string
 go test ./problems/3020-find-the-maximum-number-of-elements-in-subset
+go test ./problems/3286-find-a-safe-walk-through-a-grid
 go test ./problems/3612-process-string-with-special-operations-i
 go test ./problems/3614-process-string-with-special-operations-ii
 go test ./problems/3699-number-of-zigzag-arrays-i
