@@ -86,6 +86,11 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 3620-network-recovery-pathways/
+    │   ├── README.md
+    │   ├── solution.go
+    │   ├── solution_test.go
+    │   └── solution_bench_test.go
     ├── 3699-number-of-zigzag-arrays-i/
     │   ├── README.md
     │   ├── solution.go
@@ -126,7 +131,7 @@ Example:
 
 ## Problem Folder Structure
 
-Each problem folder contains:
+Each problem folder usually contains:
 
 ```text
 README.md
@@ -134,11 +139,17 @@ solution.go
 solution_test.go
 ```
 
+Some problems may also include an optional benchmark file:
+
+```text
+solution_bench_test.go
+```
+
 ### `README.md`
 
-Contains the problem explanation, approach, algorithm idea, and complexity analysis.
+Contains the problem explanation, approach, algorithm idea, complexity analysis, and the full Go solution.
 
-Problem README files can also include Obsidian-friendly YAML frontmatter for metadata such as difficulty, topics, contest, and Go concepts.
+Problem README files also include Obsidian-friendly YAML frontmatter for metadata such as difficulty, topics, contest, and Go concepts.
 
 ### `solution.go`
 
@@ -146,7 +157,11 @@ Contains the Go implementation of the solution.
 
 ### `solution_test.go`
 
-Contains local test cases for the solution.
+Contains local test cases for the solution. Some problems also include randomized differential tests against a brute-force reference.
+
+### `solution_bench_test.go` (optional)
+
+Contains Go benchmarks for performance-sensitive solutions.
 
 ## Solved Problems
 
@@ -169,6 +184,7 @@ Contains local test cases for the solution.
 | 3286 | Find a Safe Walk Through a Grid           | Medium     | [Go](./problems/3286-find-a-safe-walk-through-a-grid/)        |
 | 3612 | Process String with Special Operations I  | Medium     | [Go](./problems/3612-process-string-with-special-operations-i/) |
 | 3614 | Process String with Special Operations II | Hard       | [Go](./problems/3614-process-string-with-special-operations-ii/) |
+| 3620 | Network Recovery Pathways                 | Hard       | [Go](./problems/3620-network-recovery-pathways/)              |
 | 3699 | Number of ZigZag Arrays I                 | Hard       | [Go](./problems/3699-number-of-zigzag-arrays-i/)              |
 | 3700 | Number of ZigZag Arrays II                | Hard       | [Go](./problems/3700-number-of-zigzag-arrays-ii/)             |
 | 3737 | Count Subarrays With Majority Element I   | Medium     | [Go](./problems/3737-count-subarrays-with-majority-element-i/) |
@@ -186,28 +202,21 @@ go test ./...
 Run tests for one problem:
 
 ```bash
+go test ./problems/<problem-folder>
+```
+
+Examples:
+
+```bash
 go test ./problems/125-valid-palindrome
-go test ./problems/1189-maximum-number-of-balloons
-go test ./problems/1344-angle-between-hands-of-a-clock
-go test ./problems/1358-number-of-substrings-containing-all-three-characters
-go test ./problems/1732-find-the-highest-altitude
-go test ./problems/1833-maximum-ice-cream-bars
-go test ./problems/1840-maximum-building-height
-go test ./problems/1846-maximum-element-after-decreasing-and-rearranging
-go test ./problems/1967-number-of-strings-that-appear-as-substrings-in-word
-go test ./problems/2095-delete-the-middle-node-of-a-linked-list
-go test ./problems/2130-maximum-twin-sum-of-a-linked-list
-go test ./problems/2287-rearrange-characters-to-make-target-string
-go test ./problems/2812-find-the-safest-path-in-a-grid
-go test ./problems/3020-find-the-maximum-number-of-elements-in-subset
-go test ./problems/3286-find-a-safe-walk-through-a-grid
-go test ./problems/3612-process-string-with-special-operations-i
-go test ./problems/3614-process-string-with-special-operations-ii
-go test ./problems/3699-number-of-zigzag-arrays-i
+go test ./problems/3620-network-recovery-pathways
 go test ./problems/3700-number-of-zigzag-arrays-ii
-go test ./problems/3737-count-subarrays-with-majority-element-i
-go test ./problems/3739-count-subarrays-with-majority-element-ii
-go test ./problems/3838-weighted-word-mapping
+```
+
+Run benchmarks when a problem includes `solution_bench_test.go`:
+
+```bash
+go test ./problems/3620-network-recovery-pathways -bench=. -benchmem
 ```
 
 ## Goals
