@@ -147,8 +147,10 @@ Explanation:
 ```text
 Two maximum-score paths exist, each with score 4:
 
-S -> (2,1) -> (1,0) -> E
-S -> (1,2) -> (0,1) -> E
+S -> (2,1) -> (2,0) -> (1,0) -> E
+S -> (1,2) -> (0,2) -> (0,1) -> E
+
+Score: 1 + 2 + 1 = 4
 ```
 
 ### Example 3
@@ -181,7 +183,7 @@ The middle row is entirely blocked, so no valid path exists.
 
 Treat the board as a DAG. Every allowed move strictly decreases `r + c`, so cycles are impossible.
 
-Process cells in reverse topological order: rows from `n - 1` down to `0`, columns from `n - 1` down to `0`. When a cell is processed, all three possible predecessors are already finalized:
+Process cells in an implicit topological order: rows from `n - 1` down to `0`, columns from `n - 1` down to `0`. When a cell is processed, all three possible predecessors are already finalized:
 
 * below: `(row + 1, col)`
 * right: `(row, col + 1)`
