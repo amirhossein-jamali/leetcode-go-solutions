@@ -134,8 +134,8 @@ func TestPathsWithMaxScore(t *testing.T) {
 		},
 		{
 			name:  "locally largest next digit is not globally optimal",
-			board: []string{"E08", "908", "08S"},
-			want:  []int{17, 4},
+			board: []string{"E11", "9X9", "98S"},
+			want:  []int{26, 1},
 		},
 		{
 			name:  "optimal route uses a diagonal move",
