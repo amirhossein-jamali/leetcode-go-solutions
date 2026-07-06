@@ -26,6 +26,10 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 1288-remove-covered-intervals/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     ├── 1301-number-of-paths-with-max-score/
     │   ├── README.md
     │   ├── solution.go
@@ -177,6 +181,7 @@ Contains Go benchmarks for performance-sensitive solutions.
 | ---- | ----------------------------------------- | ---------- | ------------------------------------------------------------- |
 | 125  | Valid Palindrome                          | Easy       | [Go](./problems/125-valid-palindrome/)                        |
 | 1189 | Maximum Number of Balloons                | Easy       | [Go](./problems/1189-maximum-number-of-balloons/)             |
+| 1288 | Remove Covered Intervals                  | Medium     | [Go](./problems/1288-remove-covered-intervals/)               |
 | 1301 | Number of Paths with Max Score            | Hard       | [Go](./problems/1301-number-of-paths-with-max-score/)         |
 | 1344 | Angle Between Hands of a Clock            | Medium     | [Go](./problems/1344-angle-between-hands-of-a-clock/)         |
 | 1358 | Number of Substrings Containing All Three Characters | Medium | [Go](./problems/1358-number-of-substrings-containing-all-three-characters/) |
