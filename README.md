@@ -119,6 +119,10 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 3754-concatenate-non-zero-digits-and-multiply-by-sum-i/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     └── 3838-weighted-word-mapping/
         ├── README.md
         ├── solution.go
@@ -204,6 +208,7 @@ Contains Go benchmarks for performance-sensitive solutions.
 | 3700 | Number of ZigZag Arrays II                | Hard       | [Go](./problems/3700-number-of-zigzag-arrays-ii/)             |
 | 3737 | Count Subarrays With Majority Element I   | Medium     | [Go](./problems/3737-count-subarrays-with-majority-element-i/) |
 | 3739 | Count Subarrays With Majority Element II  | Hard       | [Go](./problems/3739-count-subarrays-with-majority-element-ii/) |
+| 3754 | Concatenate Non-Zero Digits and Multiply by Sum I | Easy | [Go](./problems/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/) |
 | 3838 | Weighted Word Mapping                     | Easy       | [Go](./problems/3838-weighted-word-mapping/)                  |
 
 ## How to Run Tests
