@@ -94,6 +94,10 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 3534-path-existence-queries-in-a-graph-ii/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     ├── 3612-process-string-with-special-operations-i/
     │   ├── README.md
     │   ├── solution.go
@@ -210,6 +214,7 @@ Contains Go benchmarks for performance-sensitive solutions.
 | 3020 | Find the Maximum Number of Elements in Subset | Medium | [Go](./problems/3020-find-the-maximum-number-of-elements-in-subset/) |
 | 3286 | Find a Safe Walk Through a Grid           | Medium     | [Go](./problems/3286-find-a-safe-walk-through-a-grid/)        |
 | 3532 | Path Existence Queries in a Graph I       | Medium     | [Go](./problems/3532-path-existence-queries-in-a-graph-i/)    |
+| 3534 | Path Existence Queries in a Graph II      | Hard       | [Go](./problems/3534-path-existence-queries-in-a-graph-ii/)   |
 | 3612 | Process String with Special Operations I  | Medium     | [Go](./problems/3612-process-string-with-special-operations-i/) |
 | 3614 | Process String with Special Operations II | Hard       | [Go](./problems/3614-process-string-with-special-operations-ii/) |
 | 3620 | Network Recovery Pathways                 | Hard       | [Go](./problems/3620-network-recovery-pathways/)              |
