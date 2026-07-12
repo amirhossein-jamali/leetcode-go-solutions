@@ -78,6 +78,10 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 2685-count-the-number-of-complete-components/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     ├── 2812-find-the-safest-path-in-a-grid/
     │   ├── README.md
     │   ├── solution.go
@@ -210,6 +214,7 @@ Contains Go benchmarks for performance-sensitive solutions.
 | 2130 | Maximum Twin Sum of a Linked List         | Medium     | [Go](./problems/2130-maximum-twin-sum-of-a-linked-list/)      |
 | 2287 | Rearrange Characters to Make Target String | Easy       | [Go](./problems/2287-rearrange-characters-to-make-target-string/) |
 | 2492 | Minimum Score of a Path Between Two Cities | Medium     | [Go](./problems/2492-minimum-score-of-a-path-between-two-cities/) |
+| 2685 | Count the Number of Complete Components     | Medium     | [Go](./problems/2685-count-the-number-of-complete-components/)     |
 | 2812 | Find the Safest Path in a Grid            | Medium     | [Go](./problems/2812-find-the-safest-path-in-a-grid/)         |
 | 3020 | Find the Maximum Number of Elements in Subset | Medium | [Go](./problems/3020-find-the-maximum-number-of-elements-in-subset/) |
 | 3286 | Find a Safe Walk Through a Grid           | Medium     | [Go](./problems/3286-find-a-safe-walk-through-a-grid/)        |
