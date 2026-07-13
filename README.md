@@ -30,6 +30,10 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 1291-sequential-digits/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     ├── 1301-number-of-paths-with-max-score/
     │   ├── README.md
     │   ├── solution.go
@@ -206,6 +210,7 @@ Contains Go benchmarks for performance-sensitive solutions.
 | 125  | Valid Palindrome                          | Easy       | [Go](./problems/125-valid-palindrome/)                        |
 | 1189 | Maximum Number of Balloons                | Easy       | [Go](./problems/1189-maximum-number-of-balloons/)             |
 | 1288 | Remove Covered Intervals                  | Medium     | [Go](./problems/1288-remove-covered-intervals/)               |
+| 1291 | Sequential Digits                         | Medium     | [Go](./problems/1291-sequential-digits/)                      |
 | 1301 | Number of Paths with Max Score            | Hard       | [Go](./problems/1301-number-of-paths-with-max-score/)         |
 | 1331 | Rank Transform of an Array                | Easy       | [Go](./problems/1331-rank-transform-of-an-array/)             |
 | 1344 | Angle Between Hands of a Clock            | Medium     | [Go](./problems/1344-angle-between-hands-of-a-clock/)         |
