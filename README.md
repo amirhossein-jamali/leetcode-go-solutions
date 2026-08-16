@@ -70,6 +70,10 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 2029-stone-game-ix/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     ├── 2095-delete-the-middle-node-of-a-linked-list/
     │   ├── README.md
     │   ├── solution.go
@@ -220,6 +224,7 @@ Contains Go benchmarks for performance-sensitive solutions.
 | 1840 | Maximum Building Height                   | Hard       | [Go](./problems/1840-maximum-building-height/)                |
 | 1846 | Maximum Element After Decreasing and Rearranging | Medium | [Go](./problems/1846-maximum-element-after-decreasing-and-rearranging/) |
 | 1967 | Number of Strings That Appear as Substrings in Word | Easy | [Go](./problems/1967-number-of-strings-that-appear-as-substrings-in-word/) |
+| 2029 | Stone Game IX                             | Medium     | [Go](./problems/2029-stone-game-ix/)                          |
 | 2095 | Delete the Middle Node of a Linked List   | Medium     | [Go](./problems/2095-delete-the-middle-node-of-a-linked-list/) |
 | 2130 | Maximum Twin Sum of a Linked List         | Medium     | [Go](./problems/2130-maximum-twin-sum-of-a-linked-list/)      |
 | 2287 | Rearrange Characters to Make Target String | Easy       | [Go](./problems/2287-rearrange-characters-to-make-target-string/) |
