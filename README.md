@@ -50,6 +50,10 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 1563-stone-game-v/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     ├── 1732-find-the-highest-altitude/
     │   ├── README.md
     │   ├── solution.go
@@ -223,6 +227,7 @@ Contains Go benchmarks for performance-sensitive solutions.
 | 1331 | Rank Transform of an Array                | Easy       | [Go](./problems/1331-rank-transform-of-an-array/)             |
 | 1344 | Angle Between Hands of a Clock            | Medium     | [Go](./problems/1344-angle-between-hands-of-a-clock/)         |
 | 1358 | Number of Substrings Containing All Three Characters | Medium | [Go](./problems/1358-number-of-substrings-containing-all-three-characters/) |
+| 1563 | Stone Game V                              | Hard       | [Go](./problems/1563-stone-game-v/)                           |
 | 1732 | Find the Highest Altitude                 | Easy       | [Go](./problems/1732-find-the-highest-altitude/)              |
 | 1833 | Maximum Ice Cream Bars                    | Medium     | [Go](./problems/1833-maximum-ice-cream-bars/)                 |
 | 1840 | Maximum Building Height                   | Hard       | [Go](./problems/1840-maximum-building-height/)                |
