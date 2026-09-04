@@ -30,7 +30,15 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 1291-sequential-digits/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     ├── 1301-number-of-paths-with-max-score/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
+    ├── 1331-rank-transform-of-an-array/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
@@ -39,6 +47,14 @@ leetcode-go-solutions/
     │   ├── solution.go
     │   └── solution_test.go
     ├── 1358-number-of-substrings-containing-all-three-characters/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
+    ├── 1386-cinema-seat-allocation/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
+    ├── 1563-stone-game-v/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
@@ -62,6 +78,10 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 2029-stone-game-ix/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     ├── 2095-delete-the-middle-node-of-a-linked-list/
     │   ├── README.md
     │   ├── solution.go
@@ -78,6 +98,10 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 2685-count-the-number-of-complete-components/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     ├── 2812-find-the-safest-path-in-a-grid/
     │   ├── README.md
     │   ├── solution.go
@@ -87,6 +111,10 @@ leetcode-go-solutions/
     │   ├── solution.go
     │   └── solution_test.go
     ├── 3286-find-a-safe-walk-through-a-grid/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
+    ├── 3471-find-the-largest-almost-missing-integer/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
@@ -202,21 +230,28 @@ Contains Go benchmarks for performance-sensitive solutions.
 | 125  | Valid Palindrome                          | Easy       | [Go](./problems/125-valid-palindrome/)                        |
 | 1189 | Maximum Number of Balloons                | Easy       | [Go](./problems/1189-maximum-number-of-balloons/)             |
 | 1288 | Remove Covered Intervals                  | Medium     | [Go](./problems/1288-remove-covered-intervals/)               |
+| 1291 | Sequential Digits                         | Medium     | [Go](./problems/1291-sequential-digits/)                      |
 | 1301 | Number of Paths with Max Score            | Hard       | [Go](./problems/1301-number-of-paths-with-max-score/)         |
+| 1331 | Rank Transform of an Array                | Easy       | [Go](./problems/1331-rank-transform-of-an-array/)             |
 | 1344 | Angle Between Hands of a Clock            | Medium     | [Go](./problems/1344-angle-between-hands-of-a-clock/)         |
 | 1358 | Number of Substrings Containing All Three Characters | Medium | [Go](./problems/1358-number-of-substrings-containing-all-three-characters/) |
+| 1386 | Cinema Seat Allocation                    | Medium     | [Go](./problems/1386-cinema-seat-allocation/)                 |
+| 1563 | Stone Game V                              | Hard       | [Go](./problems/1563-stone-game-v/)                           |
 | 1732 | Find the Highest Altitude                 | Easy       | [Go](./problems/1732-find-the-highest-altitude/)              |
 | 1833 | Maximum Ice Cream Bars                    | Medium     | [Go](./problems/1833-maximum-ice-cream-bars/)                 |
 | 1840 | Maximum Building Height                   | Hard       | [Go](./problems/1840-maximum-building-height/)                |
 | 1846 | Maximum Element After Decreasing and Rearranging | Medium | [Go](./problems/1846-maximum-element-after-decreasing-and-rearranging/) |
 | 1967 | Number of Strings That Appear as Substrings in Word | Easy | [Go](./problems/1967-number-of-strings-that-appear-as-substrings-in-word/) |
+| 2029 | Stone Game IX                             | Medium     | [Go](./problems/2029-stone-game-ix/)                          |
 | 2095 | Delete the Middle Node of a Linked List   | Medium     | [Go](./problems/2095-delete-the-middle-node-of-a-linked-list/) |
 | 2130 | Maximum Twin Sum of a Linked List         | Medium     | [Go](./problems/2130-maximum-twin-sum-of-a-linked-list/)      |
 | 2287 | Rearrange Characters to Make Target String | Easy       | [Go](./problems/2287-rearrange-characters-to-make-target-string/) |
 | 2492 | Minimum Score of a Path Between Two Cities | Medium     | [Go](./problems/2492-minimum-score-of-a-path-between-two-cities/) |
+| 2685 | Count the Number of Complete Components     | Medium     | [Go](./problems/2685-count-the-number-of-complete-components/)     |
 | 2812 | Find the Safest Path in a Grid            | Medium     | [Go](./problems/2812-find-the-safest-path-in-a-grid/)         |
 | 3020 | Find the Maximum Number of Elements in Subset | Medium | [Go](./problems/3020-find-the-maximum-number-of-elements-in-subset/) |
 | 3286 | Find a Safe Walk Through a Grid           | Medium     | [Go](./problems/3286-find-a-safe-walk-through-a-grid/)        |
+| 3471 | Find the Largest Almost Missing Integer   | Easy       | [Go](./problems/3471-find-the-largest-almost-missing-integer/) |
 | 3532 | Path Existence Queries in a Graph I       | Medium     | [Go](./problems/3532-path-existence-queries-in-a-graph-i/)    |
 | 3534 | Path Existence Queries in a Graph II      | Hard       | [Go](./problems/3534-path-existence-queries-in-a-graph-ii/)   |
 | 3612 | Process String with Special Operations I  | Medium     | [Go](./problems/3612-process-string-with-special-operations-i/) |
