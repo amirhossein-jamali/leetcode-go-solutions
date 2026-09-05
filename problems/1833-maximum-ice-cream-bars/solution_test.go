@@ -4,10 +4,10 @@ import "testing"
 
 func TestMaxIceCream(t *testing.T) {
 	tests := []struct {
-		name   string
-		costs  []int
-		coins  int
-		want   int
+		name  string
+		costs []int
+		coins int
+		want  int
 	}{
 		{
 			name:  "example 1",
