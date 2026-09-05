@@ -299,6 +299,23 @@ Run benchmarks when a problem includes `solution_bench_test.go`:
 go test ./problems/3620-network-recovery-pathways -bench=. -benchmem
 ```
 
+## Workflow
+
+Use a dedicated branch for each problem, then merge only after CI is green.
+
+1. Create a branch named `leetcode/<number>-<short-name>`:
+
+   ```text
+   leetcode/1833-max-ice-cream-bars
+   ```
+
+2. Write the solution and problem notes in `problems/<number>-<problem-name>/`.
+3. Run tests locally (`go test ./...` or `go test ./problems/<problem-folder>`).
+4. Commit the changes.
+5. Push the branch.
+6. Open a pull request.
+7. Merge after CI is green.
+
 ## Goals
 
 The goals of this repository are:
