@@ -175,6 +175,10 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 3870-count-commas-in-range/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     ├── 3903-smallest-stable-index-i/
     │   ├── README.md
     │   ├── solution.go
@@ -278,6 +282,7 @@ Contains Go benchmarks for performance-sensitive solutions.
 | 3754 | Concatenate Non-Zero Digits and Multiply by Sum I | Easy | [Go](./problems/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/) |
 | 3756 | Concatenate Non-Zero Digits and Multiply by Sum II | Medium | [Go](./problems/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii/) |
 | 3838 | Weighted Word Mapping                     | Easy       | [Go](./problems/3838-weighted-word-mapping/)                  |
+| 3870 | Count Commas in Range                     | Easy       | [Go](./problems/3870-count-commas-in-range/)                  |
 | 3903 | Smallest Stable Index I                   | Easy       | [Go](./problems/3903-smallest-stable-index-i/)                |
 | 3904 | Smallest Stable Index II                  | Medium     | [Go](./problems/3904-smallest-stable-index-ii/)               |
 
