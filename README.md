@@ -30,6 +30,10 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 835-image-overlap/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     ├── 1189-maximum-number-of-balloons/
     │   ├── README.md
     │   ├── solution.go
@@ -246,6 +250,7 @@ Contains Go benchmarks for performance-sensitive solutions.
 | 115  | Distinct Subsequences                     | Hard       | [Go](./problems/115-distinct-subsequences/)                   |
 | 940  | Distinct Subsequences II                  | Hard       | [Go](./problems/940-distinct-subsequences-ii/)                |
 | 125  | Valid Palindrome                          | Easy       | [Go](./problems/125-valid-palindrome/)                        |
+| 835  | Image Overlap                             | Medium     | [Go](./problems/835-image-overlap/)                         |
 | 1189 | Maximum Number of Balloons                | Easy       | [Go](./problems/1189-maximum-number-of-balloons/)             |
 | 1288 | Remove Covered Intervals                  | Medium     | [Go](./problems/1288-remove-covered-intervals/)               |
 | 1291 | Sequential Digits                         | Medium     | [Go](./problems/1291-sequential-digits/)                      |
