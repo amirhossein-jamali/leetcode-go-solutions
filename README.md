@@ -126,6 +126,10 @@ leetcode-go-solutions/
     │   ├── README.md
     │   ├── solution.go
     │   └── solution_test.go
+    ├── 3414-maximum-score-of-non-overlapping-intervals/
+    │   ├── README.md
+    │   ├── solution.go
+    │   └── solution_test.go
     ├── 3471-find-the-largest-almost-missing-integer/
     │   ├── README.md
     │   ├── solution.go
@@ -274,6 +278,7 @@ Contains Go benchmarks for performance-sensitive solutions.
 | 2812 | Find the Safest Path in a Grid            | Medium     | [Go](./problems/2812-find-the-safest-path-in-a-grid/)         |
 | 3020 | Find the Maximum Number of Elements in Subset | Medium | [Go](./problems/3020-find-the-maximum-number-of-elements-in-subset/) |
 | 3286 | Find a Safe Walk Through a Grid           | Medium     | [Go](./problems/3286-find-a-safe-walk-through-a-grid/)        |
+| 3414 | Maximum Score of Non-overlapping Intervals | Hard      | [Go](./problems/3414-maximum-score-of-non-overlapping-intervals/) |
 | 3471 | Find the Largest Almost Missing Integer   | Easy       | [Go](./problems/3471-find-the-largest-almost-missing-integer/) |
 | 3532 | Path Existence Queries in a Graph I       | Medium     | [Go](./problems/3532-path-existence-queries-in-a-graph-i/)    |
 | 3534 | Path Existence Queries in a Graph II      | Hard       | [Go](./problems/3534-path-existence-queries-in-a-graph-ii/)   |
